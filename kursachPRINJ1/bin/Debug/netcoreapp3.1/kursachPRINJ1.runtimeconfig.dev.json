@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Relaxx\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Relaxx\\.nuget\\packages"
+    ]
+  }
+}

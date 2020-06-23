@@ -1,0 +1,126 @@
+﻿<Window x:Class="kursachPRINJ1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kursachPRINJ1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1500" MaxHeight="720" MaxWidth="1500" MinHeight="720" MinWidth="1500">
+    <Window.Background>
+        <ImageBrush ImageSource="D:\visual project\kursachPRINJ1\kursachPRINJ1\s1200.png"/>
+    </Window.Background>
+    <Grid>
+        <Image x:Name="Im" HorizontalAlignment="Left" Height="373" Margin="461,10,0,0" VerticalAlignment="Top" Width="289"/>
+        <ListBox x:Name="list1" Margin="10,10,1044,10" SelectionChanged="list1_SelectionChanged" Background="{x:Null}" BorderBrush="{x:Null}"/>
+        <TextBox  x:Name="name12" HorizontalAlignment="Left" Margin="769,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" Height="41" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="24" FontWeight="Bold" IsReadOnly="True">
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+
+        <TextBox x:Name="info1" HorizontalAlignment="Left" Margin="461,389,0,10" TextWrapping="Wrap" Width="790" FontSize="16" Background="{x:Null}" IsReadOnly="True" FontWeight="Bold" FontFamily="Arial Black" BorderBrush="Black" >
+            <TextBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4B0C0C"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBox.Foreground>
+        </TextBox>
+        <Button x:Name="addzap" Content="Добавить запись" HorizontalAlignment="Left" Margin="1010,6,0,0" VerticalAlignment="Top" Height="38" Width="150" FontSize="16" FontWeight="Bold" Click="addzap_Click" Background="{x:Null}" Foreground="Black" BorderBrush="{x:Null}"/>
+
+        <Label Content="Название существа" HorizontalAlignment="Left" Margin="769,10,0,0" VerticalAlignment="Top" Width="155" FontWeight="Bold" FontSize="14">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="klasssushestva" HorizontalAlignment="Left" Margin="769,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233" Height="44" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="20" FontWeight="Bold" IsReadOnly="True" >
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBox>
+        <Label Content="Класс существа" HorizontalAlignment="Left" Margin="769,97,0,0" VerticalAlignment="Top" Width="118" FontWeight="Bold" FontSize="14">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="FightMet" HorizontalAlignment="Left" Margin="769,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="482" Height="65" Background="{x:Null}" FontSize="16" BorderBrush="Black" IsReadOnly="True" >
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBox>
+        <Label Content="Методы борьбы" HorizontalAlignment="Left" Margin="769,191,0,0" VerticalAlignment="Top" Width="136" FontWeight="Bold" FontSize="14">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <TextBox x:Name="immun" HorizontalAlignment="Left" Margin="769,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="482" Height="68" Background="{x:Null}" BorderBrush="Black" FontSize="16" IsReadOnly="True" >
+            <TextBlock.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </TextBlock.Foreground>
+        </TextBox>
+
+        <Label Content="Иммунитет" HorizontalAlignment="Left" Margin="769,287,0,0" VerticalAlignment="Top" Width="118" FontWeight="Bold" FontSize="14">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Button x:Name="dellzap" Content="Удалить запись" HorizontalAlignment="Left" Margin="1160,7,0,0" VerticalAlignment="Top" Width="150" Height="36" Click="dellzap_Click" Background="{x:Null}" Foreground="Black" FontWeight="Bold" FontSize="16" BorderBrush="{x:Null}"/>
+        <ListBox x:Name="friend" Margin="1256,126,10,302" Background="{x:Null}" BorderBrush="Black" FontSize="16" FontWeight="Bold" >
+            <ListBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </ListBox.Foreground>
+        </ListBox>
+        <ListBox x:Name="enemy" Margin="1256,424,10,10" Background="{x:Null}" BorderBrush="Black" FontWeight="Bold" FontSize="16">
+            <ListBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </ListBox.Foreground>
+        </ListBox>
+        <Label Content="Друзья" HorizontalAlignment="Left" Margin="1256,97,0,0" VerticalAlignment="Top" Width="118" FontWeight="Bold" FontSize="14">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+        <Label Content="Враги" HorizontalAlignment="Left" Margin="1256,395,0,0" VerticalAlignment="Top" Width="118" FontWeight="Bold" FontSize="14">
+            <Label.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="Red" Offset="1"/>
+                </LinearGradientBrush>
+            </Label.Foreground>
+        </Label>
+
+    </Grid>
+</Window>

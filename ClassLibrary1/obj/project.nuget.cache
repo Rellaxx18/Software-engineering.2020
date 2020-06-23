@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U2U0DPCbvYCeZ1CzMtt4U7wJtOumPq5DfqOxFvT7eSyhxRVnoJty7BB76YkMAWdS7gbaeb80dGT0+atlZF9BKg==",
+  "success": true,
+  "projectFilePath": "D:\\visual project\\kursachPRINJ1\\ClassLibrary1\\ClassLibrary1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Relaxx\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

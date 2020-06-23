@@ -1,0 +1,14 @@
+D:\visual project\kursachPRINJ1\Controls\bin\Debug\netcoreapp3.1\Controls.deps.json
+D:\visual project\kursachPRINJ1\Controls\bin\Debug\netcoreapp3.1\Controls.dll
+D:\visual project\kursachPRINJ1\Controls\bin\Debug\netcoreapp3.1\Controls.pdb
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Controls.csprojAssemblyReference.cache
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Combo1.g.cs
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Controls_MarkupCompile.cache
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Controls_MarkupCompile.lref
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Combo1.baml
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Controls.g.resources
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Controls.csproj.CoreCompileInputs.cache
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Controls.AssemblyInfoInputs.cache
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Controls.AssemblyInfo.cs
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Controls.dll
+D:\visual project\kursachPRINJ1\Controls\obj\Debug\netcoreapp3.1\Controls.pdb
